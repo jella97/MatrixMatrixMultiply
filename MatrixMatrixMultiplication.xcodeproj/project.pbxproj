@@ -13,6 +13,7 @@
 		89CCAF08167725CA002F94FC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 89CCAF06167725CA002F94FC /* Credits.rtf */; };
 		89CCAF0B167725CA002F94FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CCAF0A167725CA002F94FC /* AppDelegate.m */; };
 		89CCAF0E167725CB002F94FC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89CCAF0C167725CB002F94FC /* MainMenu.xib */; };
+		89D56D58167809B000762D98 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D56D57167809B000762D98 /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		89CCAF09167725CA002F94FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		89CCAF0A167725CA002F94FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		89CCAF0D167725CB002F94FC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		89D56D57167809B000762D98 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D56D58167809B000762D98 /* Accelerate.framework in Frameworks */,
 				89CCAEF8167725CA002F94FC /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +49,7 @@
 		89CCAEE8167725CA002F94FC = {
 			isa = PBXGroup;
 			children = (
+				89D56D57167809B000762D98 /* Accelerate.framework */,
 				89CCAEFD167725CA002F94FC /* MatrixMatrixMultiplication */,
 				89CCAEF6167725CA002F94FC /* Frameworks */,
 				89CCAEF4167725CA002F94FC /* Products */,
@@ -297,6 +301,7 @@
 				89CCAF13167725CB002F94FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
