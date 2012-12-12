@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89CCAEF8167725CA002F94FC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89CCAEF7167725CA002F94FC /* Cocoa.framework */; };
+		89CCAF02167725CA002F94FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89CCAF00167725CA002F94FC /* InfoPlist.strings */; };
+		89CCAF04167725CA002F94FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CCAF03167725CA002F94FC /* main.m */; };
+		89CCAF08167725CA002F94FC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 89CCAF06167725CA002F94FC /* Credits.rtf */; };
+		89CCAF0B167725CA002F94FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CCAF0A167725CA002F94FC /* AppDelegate.m */; };
+		89CCAF0E167725CB002F94FC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89CCAF0C167725CB002F94FC /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89CCAEF3167725CA002F94FC /* MatrixMatrixMultiplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatrixMatrixMultiplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89CCAEF7167725CA002F94FC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		89CCAEFA167725CA002F94FC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		89CCAEFB167725CA002F94FC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		89CCAEFC167725CA002F94FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		89CCAEFF167725CA002F94FC /* MatrixMatrixMultiplication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatrixMatrixMultiplication-Info.plist"; sourceTree = "<group>"; };
+		89CCAF01167725CA002F94FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89CCAF03167725CA002F94FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89CCAF05167725CA002F94FC /* MatrixMatrixMultiplication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MatrixMatrixMultiplication-Prefix.pch"; sourceTree = "<group>"; };
+		89CCAF07167725CA002F94FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		89CCAF09167725CA002F94FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89CCAF0A167725CA002F94FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89CCAF0D167725CB002F94FC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89CCAEF0167725CA002F94FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CCAEF8167725CA002F94FC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89CCAEE8167725CA002F94FC = {
+			isa = PBXGroup;
+			children = (
+				89CCAEFD167725CA002F94FC /* MatrixMatrixMultiplication */,
+				89CCAEF6167725CA002F94FC /* Frameworks */,
+				89CCAEF4167725CA002F94FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89CCAEF4167725CA002F94FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89CCAEF3167725CA002F94FC /* MatrixMatrixMultiplication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89CCAEF6167725CA002F94FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89CCAEF7167725CA002F94FC /* Cocoa.framework */,
+				89CCAEF9167725CA002F94FC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89CCAEF9167725CA002F94FC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89CCAEFA167725CA002F94FC /* AppKit.framework */,
+				89CCAEFB167725CA002F94FC /* CoreData.framework */,
+				89CCAEFC167725CA002F94FC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		89CCAEFD167725CA002F94FC /* MatrixMatrixMultiplication */ = {
+			isa = PBXGroup;
+			children = (
+				89CCAF09167725CA002F94FC /* AppDelegate.h */,
+				89CCAF0A167725CA002F94FC /* AppDelegate.m */,
+				89CCAF0C167725CB002F94FC /* MainMenu.xib */,
+				89CCAEFE167725CA002F94FC /* Supporting Files */,
+			);
+			path = MatrixMatrixMultiplication;
+			sourceTree = "<group>";
+		};
+		89CCAEFE167725CA002F94FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89CCAEFF167725CA002F94FC /* MatrixMatrixMultiplication-Info.plist */,
+				89CCAF00167725CA002F94FC /* InfoPlist.strings */,
+				89CCAF03167725CA002F94FC /* main.m */,
+				89CCAF05167725CA002F94FC /* MatrixMatrixMultiplication-Prefix.pch */,
+				89CCAF06167725CA002F94FC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89CCAEF2167725CA002F94FC /* MatrixMatrixMultiplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89CCAF11167725CB002F94FC /* Build configuration list for PBXNativeTarget "MatrixMatrixMultiplication" */;
+			buildPhases = (
+				89CCAEEF167725CA002F94FC /* Sources */,
+				89CCAEF0167725CA002F94FC /* Frameworks */,
+				89CCAEF1167725CA002F94FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatrixMatrixMultiplication;
+			productName = MatrixMatrixMultiplication;
+			productReference = 89CCAEF3167725CA002F94FC /* MatrixMatrixMultiplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89CCAEEA167725CA002F94FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = IBS;
+			};
+			buildConfigurationList = 89CCAEED167725CA002F94FC /* Build configuration list for PBXProject "MatrixMatrixMultiplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89CCAEE8167725CA002F94FC;
+			productRefGroup = 89CCAEF4167725CA002F94FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89CCAEF2167725CA002F94FC /* MatrixMatrixMultiplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89CCAEF1167725CA002F94FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CCAF02167725CA002F94FC /* InfoPlist.strings in Resources */,
+				89CCAF08167725CA002F94FC /* Credits.rtf in Resources */,
+				89CCAF0E167725CB002F94FC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89CCAEEF167725CA002F94FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CCAF04167725CA002F94FC /* main.m in Sources */,
+				89CCAF0B167725CA002F94FC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89CCAF00167725CA002F94FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89CCAF01167725CA002F94FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		89CCAF06167725CA002F94FC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89CCAF07167725CA002F94FC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		89CCAF0C167725CB002F94FC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89CCAF0D167725CB002F94FC /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89CCAF0F167725CB002F94FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		89CCAF10167725CB002F94FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		89CCAF12167725CB002F94FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MatrixMatrixMultiplication/MatrixMatrixMultiplication-Prefix.pch";
+				INFOPLIST_FILE = "MatrixMatrixMultiplication/MatrixMatrixMultiplication-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		89CCAF13167725CB002F94FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MatrixMatrixMultiplication/MatrixMatrixMultiplication-Prefix.pch";
+				INFOPLIST_FILE = "MatrixMatrixMultiplication/MatrixMatrixMultiplication-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89CCAEED167725CA002F94FC /* Build configuration list for PBXProject "MatrixMatrixMultiplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89CCAF0F167725CB002F94FC /* Debug */,
+				89CCAF10167725CB002F94FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89CCAF11167725CB002F94FC /* Build configuration list for PBXNativeTarget "MatrixMatrixMultiplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89CCAF12167725CB002F94FC /* Debug */,
+				89CCAF13167725CB002F94FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89CCAEEA167725CA002F94FC /* Project object */;
+}
