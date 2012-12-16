@@ -60,22 +60,22 @@
 {
     int i; // index for matrix
     
-    int M = 10000; // M must be >= MAX(K, 1)  (rows in matrices A and C)                 M = lda = ldc
-	int N = 10000; // M >= K >= N             (columns in matrices B and C)
-	int K = 10000; // K must be >= MAX(N, 1)  (columns in matrix A; rows in matrix B)    K = ldb
+    int M = 12288; // M must be >= MAX(K, 1)  (rows in matrices A and C)                 M = lda = ldc
+	int N = M; // M >= K >= N             (columns in matrices B and C)
+	int K = M; // K must be >= MAX(N, 1)  (columns in matrix A; rows in matrix B)    K = ldb
     
 	double alpha = 1.0;    // (Scaling factor for the product of matrices A and B.)
     
-    double *A = malloc( M * K * sizeof(double));  // (matrix A) M x K
+    double *A = calloc( (double) M * K, (double) 8 );  // (matrix A) M x K
     for ( i = 0; i < M * K; i++ ) A[ i ] = [self getRandomDouble];
     NSLog(@"matrix A created");
     
-    double *B = malloc( K * N * sizeof(double));  // (matrix B) K x N
-	for ( i = 0; i < K * N; i++ ) B[ i ] = [self getRandomDouble];
+    double *B = calloc( (double) K * N, (double) 8 );  // (matrix B) K x N
+    for ( i = 0; i < K * N; i++ ) B[ i ] = [self getRandomDouble];
     NSLog(@"matrix B created");
     
 	double beta = 0.0;
-    double *C = malloc( M * N * sizeof(double));  // (matrix C) M x N
+    double *C = calloc( (double) M * N, (double) 8 );  // (matrix C) M x N
     NSLog(@"matrix C malloc");
     
 	NSLog(@"start cblas_dgemm");
@@ -92,11 +92,15 @@
 	NSLog(@"end cblas_dgemm");
     
     NSLog(@"%f", C[0]);
+    
+    free(A);
+    free(B);
+    free(C);
 }
 
 
 - (double)getRandomDouble
 {
-	return ( (double)arc4random_uniform(1000) / 1000 );
+	return ( (double)arc4random_uniform(100) / 100 );
 }
 @end
